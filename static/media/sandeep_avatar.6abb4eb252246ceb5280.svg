@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Sandeep Kumar avatar">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1B2C"/>
+      <stop offset="1" stop-color="#0E7C8C"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="420" rx="60" fill="url(#g)"/>
+  <circle cx="210" cy="170" r="76" fill="#F7F9FB" opacity="0.96"/>
+  <path d="M88 366c14-74 66-116 122-116s108 42 122 116" fill="#F7F9FB" opacity="0.96"/>
+  <text x="210" y="187" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#0E1B2C">SK</text>
+</svg>
