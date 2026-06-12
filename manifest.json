@@ -1,6 +1,7 @@
 {
-  "short_name": "Sandeep Kumar",
-  "name": "Sandeep Kumar Portfolio",
+  "short_name": "Sandeep IITB",
+  "name": "Sandeep Kumar IITB Portfolio",
+  "description": "Portfolio of Sandeep Kumar, PhD researcher at IIT Bombay CMInDS in Computer Vision, Medical Image Analysis and Vision-Language Models.",
   "icons": [
     { "src": "/icons/android-icon-36x36.png", "sizes": "36x36", "type": "image/png", "density": "0.75" },
     { "src": "/icons/android-icon-48x48.png", "sizes": "48x48", "type": "image/png", "density": "1.0" },
@@ -12,5 +13,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#0E1B2C",
-  "background_color": "#ffffff"
+  "background_color": "#F7F9FB"
 }
