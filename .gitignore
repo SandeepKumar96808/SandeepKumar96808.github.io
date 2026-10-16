@@ -8,5 +8,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # Local-only files
-src.backup-*/
-images/
+/src.backup-*/
+/images/
