@@ -1,0 +1,43 @@
+# Builds the site and publishes it to the `main` branch, which GitHub Pages
+# serves at https://sandeepkumar96808.github.io/.
+# Runs on every push to the `source` branch, or manually from the Actions tab.
+name: Build and deploy
+
+on:
+  push:
+    branches: [source]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+        env:
+          CI: false
+
+      - name: Publish build/ to main
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: ./build
+          commit_message: "Deploy from source"
+          user_name: "github-actions[bot]"
+          user_email: "41898378+github-actions[bot]@users.noreply.github.com"

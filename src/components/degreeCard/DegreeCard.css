@@ -1,0 +1,86 @@
+.degree-card {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+  margin: 22px 0;
+}
+.card-title {
+  font-family: "Google Sans Medium";
+  font-size: 23px;
+  line-height: 1.25;
+}
+.card-subtitle {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  line-height: 1.35;
+}
+.card-img {
+  width: 155px;
+  height: 155px;
+  object-fit: contain;
+  padding: 22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(14, 27, 44, 0.10);
+  box-shadow: 0 16px 42px rgba(14, 27, 44, 0.10);
+}
+.body-header {
+  max-width: inherit;
+  display: flex;
+  gap: 16px;
+  border-radius: 14px 14px 0 0;
+  padding: 16px 18px;
+}
+.body-header-title { align-items: flex-start; width: 78%; min-width: 0; }
+.body-header-duration { width: 22%; min-width: 120px; }
+.duration {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  padding-right: 0;
+  float: right;
+  white-space: nowrap;
+}
+.body-content {
+  max-width: inherit;
+  border-radius: 0 0 14px 14px;
+  padding: 16px 18px;
+}
+.content-list {
+  padding-left: 18px;
+  padding-right: 10px;
+  font-family: "Google Sans Regular";
+  line-height: 1.6;
+}
+.card-body {
+  border: 1px solid rgba(14, 27, 44, 0.10);
+  border-radius: 14px;
+  margin: 10px;
+  box-shadow: 0 14px 40px rgba(14, 27, 44, 0.08);
+  min-width: 0;
+  overflow: hidden;
+  background: #fff;
+}
+.visit-btn {
+  display: inline-block;
+  margin: 0 10px 14px 0;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 0;
+  float: right;
+}
+.btn { margin: 0; padding: 0; font-family: "Google Sans Regular"; }
+@media (max-width: 768px) {
+  .degree-card { grid-template-columns: 1fr; gap: 12px; justify-items: center; }
+  .body-header { flex-direction: column; gap: 8px; }
+  .body-header-title, .body-header-duration { width: 100%; min-width: 0; }
+  .duration { padding: 0; margin: 0; float: left; white-space: normal; }
+  .card-img { width: 116px; height: 116px; padding: 18px; }
+  .card-body { width: 100% !important; margin: 0; }
+  .card-title { font-size: 20px; }
+  .card-subtitle { font-size: 16px; }
+  .content-list { padding-left: 16px; }
+}

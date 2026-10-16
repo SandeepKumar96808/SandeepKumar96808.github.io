@@ -1,0 +1,16 @@
+.project-title {
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Google Sans Medium";
+}
+.startup-project-text img { max-width: 100%; height: auto; }
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+  gap: 1.1rem;
+}
+@media (max-width: 768px) {
+  .project-title { text-align: center; }
+  .repo-cards-div-main { grid-template-columns: 1fr; }
+}

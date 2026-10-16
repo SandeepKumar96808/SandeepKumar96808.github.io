@@ -1,0 +1,88 @@
+.cert-card {
+  width: auto;
+  max-width: 360px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  border: 1px solid rgba(14, 27, 44, 0.10);
+  border-radius: 18px;
+  box-shadow: 0 14px 38px rgba(14, 27, 44, 0.08);
+  margin-bottom: 10px;
+  flex: 1 1 280px;
+  overflow: hidden;
+  background: #fff;
+}
+.cert-header {
+  margin: 0;
+  min-height: 156px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.logo_img {
+  margin: 0;
+  width: 108px;
+  height: 108px;
+  object-fit: contain;
+  padding: 15px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(14, 27, 44, 0.08);
+  box-shadow: 0 10px 26px rgba(14, 27, 44, 0.08);
+}
+.cert-body { margin: 0; padding: 2px 14px 18px; }
+.cert-body-title {
+  font-family: "Google Sans Medium";
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 12px 0 8px;
+}
+.cert-body-subtitle {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  color: #808080;
+  margin: 0;
+  line-height: 1.4;
+}
+.content { position: relative; width: 100%; margin: auto; overflow: hidden; }
+.content .content-overlay {
+  background: rgba(14, 27, 44, 0.78);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.25s ease-in-out 0s;
+}
+.content:hover .content-overlay { opacity: 1; }
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.25s ease-in-out 0s;
+}
+.content:hover .content-details { opacity: 1; }
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Google Sans Regular";
+  letter-spacing: 0.12em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.fadeIn-top { top: 20%; }
+@media (max-width: 640px) {
+  .cert-card { max-width: 100%; flex-basis: 100%; }
+  .cert-header { min-height: 128px; }
+  .logo_img { width: 90px; height: 90px; padding: 12px; }
+}

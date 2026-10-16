@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": "sandeep-medical-image-analysis-brain-ct-2025",
+      "name": "Medical Image Analysis for Brain Abnormality Detection",
+      "createdAt": "2025-05-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Deep learning pipelines for CT-based brain abnormality classification and segmentation using clinically relevant preprocessing and evaluation protocols.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PyTorch", "iconifyClass": "logos-pytorch" },
+        { "name": "Jupyter Notebook", "iconifyClass": "logos-jupyter" }
+      ]
+    },
+    {
+      "id": "sandeep-vlm-medical-multimodal-2025",
+      "name": "Vision-Language Modeling for Medical and Multimodal Understanding",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Multimodal learning workflows integrating visual features and language representations for image-text understanding, contextual interpretation and semantic reasoning.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "PyTorch", "iconifyClass": "logos-pytorch" }
+      ]
+    },
+    {
+      "id": "sandeep-industrial-visual-anomaly-detection-2025",
+      "name": "Industrial Visual Anomaly Detection for Automated Inspection",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Anomaly detection pipeline for industrial visual inspection using deep feature learning and image-based defect localization to support automated quality control.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "OpenCV", "iconifyClass": "simple-icons:opencv" }
+      ]
+    },
+    {
+      "id": "sandeep-human-activity-recognition-2022",
+      "name": "Human Activity Recognition using Smartphone Sensor Data",
+      "createdAt": "2022-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Machine learning model to predict user activities from smartphone gyroscope and accelerometer signals.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "scikit-learn", "iconifyClass": "simple-icons:scikitlearn" }
+      ]
+    },
+    {
+      "id": "sandeep-winery-prediction-api-2023",
+      "name": "Winery Prediction and Model Serving API",
+      "createdAt": "2023-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Wine variety classification using customer review data with an API for model serving and deployment-style inference.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "API", "iconifyClass": "mdi:api" }
+      ]
+    },
+    {
+      "id": "sandeep-bitcoin-trading-bot-2023",
+      "name": "Bitcoin Trading Bot using Time-Series Learning",
+      "createdAt": "2023-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "description": "Trading bot built using data science, deep learning and time-series analysis concepts over historical market data.",
+      "isFork": false,
+      "languages": [
+        { "name": "Python", "iconifyClass": "logos-python" },
+        { "name": "Time Series", "iconifyClass": "mdi:chart-line" }
+      ]
+    }
+  ]
+}

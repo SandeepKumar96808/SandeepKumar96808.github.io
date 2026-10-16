@@ -1,0 +1,87 @@
+.contact-main { width: 100%; }
+.basic-contact { margin-left: 5%; margin-right: 5%; }
+.contact-heading-div,
+.blog-heading-div,
+.address-heading-div {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 36px;
+  align-items: center;
+}
+.blog-heading-div { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
+.address-heading-div { margin-top: 80px; }
+.contact-heading-img-div,
+.blog-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.contact-heading-img-div img {
+  width: min(320px, 90%);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 20px 54px rgba(14, 27, 44, 0.16);
+}
+.blog-heading-img-div > *,
+.contact-heading-img-div > * { max-width: 100%; height: auto; }
+.contact-heading-text-div,
+.blog-heading-text-div,
+.address-heading-text-div { text-align: center; min-width: 0; }
+.contact-heading-text,
+.blog-heading-text {
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 40px;
+}
+.address-heading-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact-header-detail-text,
+.blog-header-detail-text {
+  font-size: 1.06rem;
+  line-height: 1.65;
+  margin: 0 20px 16px;
+  font-family: "Google Sans Regular";
+  overflow-wrap: anywhere;
+}
+.resume-btn-div,
+.blogsite-btn-div,
+.address-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+@media (max-width: 900px) {
+  .contact-heading-div,
+  .blog-heading-div,
+  .address-heading-div {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .blog-heading-div { display: flex; flex-direction: column-reverse; margin-top: 60px; }
+  .address-heading-div { margin-top: 60px; }
+  .contact-heading-text,
+  .blog-heading-text { margin-top: 0; }
+  .contact-header-detail-text,
+  .blog-header-detail-text {
+    font-size: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 1.55;
+    text-align: center;
+  }
+  .address-heading-text { font-size: 22px; }
+}
+@media (max-width: 480px) {
+  .basic-contact { margin-left: 4%; margin-right: 4%; }
+  .contact-heading-img-div img { width: min(240px, 88vw); }
+}

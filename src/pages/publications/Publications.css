@@ -1,0 +1,105 @@
+.publications-main {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.publications-container {
+  width: min(980px, 92%);
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.publications-header {
+  text-align: left;
+  padding: 48px 0 20px;
+}
+
+.publications-title {
+  font-family: "Google Sans Medium";
+  font-size: clamp(2.3rem, 5vw, 3.6rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 0 0 14px;
+}
+
+.publications-subtitle {
+  font-family: "Google Sans Regular";
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 780px;
+  margin: 0 0 8px;
+}
+
+.publications-note {
+  font-family: "Google Sans Regular";
+  font-size: 14px;
+  margin: 0;
+}
+
+.publications-scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-family: "Google Sans Regular";
+  font-size: 15px;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.publications-scholar-link:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+.publications-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 26px 0 8px;
+}
+
+.publications-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: 999px;
+  font-family: "Google Sans Regular";
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.publications-count {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.publications-list {
+  margin-top: 8px;
+}
+
+.publications-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 36px;
+}
+
+@media (max-width: 768px) {
+  .publications-header {
+    padding-top: 28px;
+  }
+
+  .publications-filter-btn {
+    font-size: 14px;
+    padding: 7px 13px;
+  }
+}

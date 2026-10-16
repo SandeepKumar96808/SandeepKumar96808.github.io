@@ -1,0 +1,60 @@
+{
+  "open": 2,
+  "closed": 1,
+  "data": [
+    {
+      "id": "issue-class-imbalance-medical-ai",
+      "closed": true,
+      "title": "Addressed class imbalance with Dice loss, Focal loss, augmentation and cross-validation",
+      "createdAt": "2025-06-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "number": 1,
+      "assignees": { "nodes": [] },
+      "repository": {
+        "name": "medical-imaging-ai",
+        "url": "https://github.com/SandeepKumar96808",
+        "owner": {
+          "login": "SandeepKumar96808",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+          "url": "https://github.com/SandeepKumar96808"
+        }
+      }
+    },
+    {
+      "id": "issue-vlm-medical-understanding",
+      "closed": false,
+      "title": "Exploring Vision-Language Models for improved contextual interpretation in AI systems",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "number": 2,
+      "assignees": { "nodes": [] },
+      "repository": {
+        "name": "vision-language-modeling",
+        "url": "https://github.com/SandeepKumar96808",
+        "owner": {
+          "login": "SandeepKumar96808",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+          "url": "https://github.com/SandeepKumar96808"
+        }
+      }
+    },
+    {
+      "id": "issue-medical-image-evaluation",
+      "closed": false,
+      "title": "Tracking Dice, IoU, sensitivity, specificity and AUC for research reporting",
+      "createdAt": "2025-07-01T00:00:00Z",
+      "url": "https://github.com/SandeepKumar96808",
+      "number": 3,
+      "assignees": { "nodes": [] },
+      "repository": {
+        "name": "model-evaluation",
+        "url": "https://github.com/SandeepKumar96808",
+        "owner": {
+          "login": "SandeepKumar96808",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+          "url": "https://github.com/SandeepKumar96808"
+        }
+      }
+    }
+  ]
+}

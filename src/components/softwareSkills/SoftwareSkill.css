@@ -1,0 +1,36 @@
+.software-skills-main-div { text-align: left; }
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.software-skill-inline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(14, 27, 44, 0.08);
+  box-shadow: 0 10px 28px rgba(14, 27, 44, 0.06);
+  transition: transform 0.2s ease;
+}
+.software-skill-inline:hover { transform: translateY(-3px); }
+.software-skill-inline > i,
+.software-skill-inline > span { font-size: 2.2rem; }
+.skill-image { width: 42px; height: 42px; object-fit: contain; }
+@media (max-width: 900px) {
+  .software-skills-main-div { text-align: center; }
+  .dev-icons { justify-content: center; gap: 10px; }
+  .software-skill-inline { width: 54px; height: 54px; border-radius: 14px; }
+  .software-skill-inline > i,
+  .software-skill-inline > span { font-size: 1.9rem; }
+  .skill-image { width: 36px; height: 36px; }
+}
