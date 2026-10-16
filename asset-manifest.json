@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8e5b7ce.css",
-    "main.js": "/static/js/main.dc0830fc.js",
+    "main.css": "/static/css/main.b771fb1e.css",
+    "main.js": "/static/js/main.61a814d3.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/seva_logo.svg": "/static/media/seva_logo.6ee32d4b0d730cf71f2a.svg",
+    "static/media/sandeep_illustration.png": "/static/media/sandeep_illustration.5e8ce3d7c884c552a12e.png",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/sandeep_profile.png": "/static/media/sandeep_profile.83bc25480df052ea357c.png",
@@ -44,18 +45,22 @@
     "static/media/iiitk_logo.png": "/static/media/iiitk_logo.170d558551a09a7d1620.png",
     "static/media/intel_logo.jpg": "/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.42a2cdaf132097cc499e.svg",
+    "static/media/elsevier.png": "/static/media/elsevier.23be44e41a3c4ba20320.png",
     "static/media/great_learning_logo.jpg": "/static/media/great_learning_logo.9d2b9c769a0e145c2c6f.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.f861b03b5a2d1a28c198.svg",
+    "static/media/emnlp.png": "/static/media/emnlp.72af33cf5bfc8a1653a9.png",
     "static/media/muffito_logo.png": "/static/media/muffito_logo.a40e290031eaf389bde1.png",
     "static/media/deeplearning_ai_logo.png": "/static/media/deeplearning_ai_logo.f5e1bd288e7a2b30a390.png",
     "static/media/nptel_logo.png": "/static/media/nptel_logo.14bc947aebe4b57dd2bc.png",
     "static/media/gcp_logo.png": "/static/media/gcp_logo.63bb0649c9716d110b14.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
+    "static/media/neurips.png": "/static/media/neurips.bcf0b56c83630b87b149.png",
     "static/media/curaj_logo.gif": "/static/media/curaj_logo.722a63d6734de209073c.gif",
     "static/media/internshala_logo.jpg": "/static/media/internshala_logo.77bd35e4e9d174412503.jpg",
     "static/media/legato_logo.png": "/static/media/legato_logo.227e72c7979187840ba3.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.967f31dad3158d5be07b.svg",
+    "static/media/bmvc.png": "/static/media/bmvc.53f076ab77e35682754d.png",
     "static/media/github_logo.png": "/static/media/github_logo.15e591a7397b9ef45656.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "/static/media/projects_image.0a8062569966b4888c7c.svg",
@@ -90,7 +95,7 @@
     "static/media/wordpress_logo.svg": "/static/media/wordpress_logo.308198ad59c22eab7d45.svg"
   },
   "entrypoints": [
-    "static/css/main.a8e5b7ce.css",
-    "static/js/main.dc0830fc.js"
+    "static/css/main.b771fb1e.css",
+    "static/js/main.61a814d3.js"
   ]
 }
