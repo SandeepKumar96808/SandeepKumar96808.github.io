@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.263f9d9a.css",
-    "main.js": "/static/js/main.ab128bf4.js",
+    "main.css": "/static/css/main.a8e5b7ce.css",
+    "main.js": "/static/js/main.dc0830fc.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/seva_logo.svg": "/static/media/seva_logo.6ee32d4b0d730cf71f2a.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
-    "static/media/sandeep_profile.png": "/static/media/sandeep_profile.e93c6fcb3f0cb47df732.png",
-    "static/media/sandeep_profile_512.png": "/static/media/sandeep_profile_512.e93c6fcb3f0cb47df732.png",
+    "static/media/sandeep_profile.png": "/static/media/sandeep_profile.83bc25480df052ea357c.png",
+    "static/media/sandeep_profile_512.png": "/static/media/sandeep_profile_512.83bc25480df052ea357c.png",
     "static/media/iitb_logo.png": "/static/media/iitb_logo.09636682741ae75ffed6.png",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.bf41765c122d4b0f3fee.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -29,11 +29,11 @@
     "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
     "static/media/GoogleSans-Bold.ttf": "/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf",
     "static/media/contactMail.png": "/static/media/contactMail.d4c9ac42fba95158a55c.png",
+    "static/media/Sandeep_Kumar_Resume.pdf": "/static/media/Sandeep_Kumar_Resume.2e46f409573878a09fe7.pdf",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ugc_net_logo.png": "/static/media/ugc_net_logo.a5507ee0c5c2bc4b0b4f.png",
-    "static/media/Sandeep_Kumar_Resume.pdf": "/static/media/Sandeep_Kumar_Resume.57232065684f175fe9e6.pdf",
-    "static/media/sandeep_profile_small.png": "/static/media/sandeep_profile_small.91173708cc09250494fe.png",
+    "static/media/sandeep_profile_small.png": "/static/media/sandeep_profile_small.32b242d3edc3a5ba4a87.png",
     "static/media/ibm_logo.png": "/static/media/ibm_logo.8204bba7daa4eedf644b.png",
     "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.dc957891d535aa198135.woff",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.be1b6b9bacd5f2fb1c7e.png",
@@ -87,12 +87,10 @@
     "static/media/gfg_logo.svg": "/static/media/gfg_logo.8496df104e388ad5c3e0.svg",
     "static/media/elamigo_logo.svg": "/static/media/elamigo_logo.b4167b3ef180b3d6d274.svg",
     "static/media/great_learning_logo.svg": "/static/media/great_learning_logo.d867dbc321e07d5505fe.svg",
-    "static/media/wordpress_logo.svg": "/static/media/wordpress_logo.308198ad59c22eab7d45.svg",
-    "main.263f9d9a.css.map": "/static/css/main.263f9d9a.css.map",
-    "main.ab128bf4.js.map": "/static/js/main.ab128bf4.js.map"
+    "static/media/wordpress_logo.svg": "/static/media/wordpress_logo.308198ad59c22eab7d45.svg"
   },
   "entrypoints": [
-    "static/css/main.263f9d9a.css",
-    "static/js/main.ab128bf4.js"
+    "static/css/main.a8e5b7ce.css",
+    "static/js/main.dc0830fc.js"
   ]
 }
