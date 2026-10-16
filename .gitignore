@@ -1,6 +1,6 @@
 node_modules
 build
-.env
+# .env is committed: it only holds build settings, never secrets.
 .env.local
 .DS_Store
 npm-debug.log*
