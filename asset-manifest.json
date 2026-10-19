@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b771fb1e.css",
-    "main.js": "/static/js/main.61a814d3.js",
+    "main.css": "/static/css/main.9c65a3f1.css",
+    "main.js": "/static/js/main.5ba17efd.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/seva_logo.svg": "/static/media/seva_logo.6ee32d4b0d730cf71f2a.svg",
     "static/media/sandeep_illustration.png": "/static/media/sandeep_illustration.5e8ce3d7c884c552a12e.png",
@@ -95,7 +95,7 @@
     "static/media/wordpress_logo.svg": "/static/media/wordpress_logo.308198ad59c22eab7d45.svg"
   },
   "entrypoints": [
-    "static/css/main.b771fb1e.css",
-    "static/js/main.61a814d3.js"
+    "static/css/main.9c65a3f1.css",
+    "static/js/main.5ba17efd.js"
   ]
 }
