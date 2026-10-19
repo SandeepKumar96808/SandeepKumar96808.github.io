@@ -23,10 +23,10 @@ const seo = {
 const greeting = {
   title: "Sandeep Kumar",
   logo_name: "Sandeep Kumar",
-  nickname: "PhD Researcher · IIT Bombay",
+  nickname: "PhD Researcher · CMInDS, IIT Bombay",
   profile_image_path: "sandeep_profile.png",
   subTitle:
-    "PhD researcher at the Centre for Machine Intelligence and Data Science, IIT Bombay, specializing in Computer Vision, Medical Image Analysis and Vision-Language Models. I build end-to-end deep learning pipelines for CT/MRI, including 2D/3D CNNs, U-Net, nnU-Net, DICOM/NIfTI preprocessing and clinically grounded evaluation.",
+    "I'm Sandeep Kumar (Sandeep Choudhary), a PhD researcher at the Centre for Machine Intelligence and Data Science (CMInDS), IIT Bombay, working on Computer Vision, Medical Image Analysis and Vision-Language Models. I build end-to-end deep learning pipelines for CT/MRI, from DICOM/NIfTI preprocessing to clinically grounded evaluation.",
   highlights: ["IIT Bombay", "Medical Imaging AI", "Computer Vision", "Vision-Language Models", "Deep Learning"],
   logoHighlights: [
     { name: "IIT Bombay", logo_path: "iitb_logo.png", link: "https://www.iitb.ac.in/" },

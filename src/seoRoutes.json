@@ -1,0 +1,38 @@
+{
+  "siteUrl": "https://sandeepkumar96808.github.io",
+  "routes": {
+    "/": {
+      "title": "Sandeep Kumar (Sandeep Choudhary) – PhD Researcher, CMInDS, IIT Bombay",
+      "description": "Sandeep Kumar (Sandeep Choudhary) is a PhD researcher at the Centre for Machine Intelligence and Data Science (CMInDS), IIT Bombay, working on medical image analysis, computer vision and vision-language models."
+    },
+    "/home": {
+      "canonical": "/",
+      "title": "Sandeep Kumar (Sandeep Choudhary) – PhD Researcher, CMInDS, IIT Bombay",
+      "description": "Sandeep Kumar (Sandeep Choudhary) is a PhD researcher at the Centre for Machine Intelligence and Data Science (CMInDS), IIT Bombay, working on medical image analysis, computer vision and vision-language models."
+    },
+    "/publications": {
+      "title": "Publications – Sandeep Kumar, CMInDS, IIT Bombay",
+      "description": "Research papers by Sandeep Kumar (IIT Bombay) at NeurIPS, BMVC, EMNLP workshops and Elsevier journals: medical imaging, survival prediction, vision-language models and hallucination detection."
+    },
+    "/education": {
+      "title": "Education – Sandeep Kumar, PhD at CMInDS, IIT Bombay",
+      "description": "Education of Sandeep Kumar (Sandeep Choudhary): PhD at the Centre for Machine Intelligence and Data Science, IIT Bombay, and Integrated Master's in Computer Science, Central University of Rajasthan."
+    },
+    "/experience": {
+      "title": "Experience – Sandeep Kumar, IIT Bombay",
+      "description": "Research, teaching and industry experience of Sandeep Kumar: PhD research at CMInDS IIT Bombay, teaching assistant for machine learning courses, medical imaging AI research internship and more."
+    },
+    "/projects": {
+      "title": "Projects – Sandeep Kumar, IIT Bombay",
+      "description": "Projects by Sandeep Kumar (IIT Bombay) in medical image analysis, vision-language models, visual anomaly detection and machine learning."
+    },
+    "/resume": {
+      "title": "Resume (CV) – Sandeep Kumar, CMInDS, IIT Bombay",
+      "description": "Resume of Sandeep Kumar (Sandeep Choudhary), PhD researcher at CMInDS, IIT Bombay: education, research, publications, teaching and skills. View online or download the PDF."
+    },
+    "/contact": {
+      "title": "Contact – Sandeep Kumar, IIT Bombay",
+      "description": "Contact Sandeep Kumar (Sandeep Choudhary), PhD researcher at CMInDS, IIT Bombay, for research collaborations, teaching and mentorship in medical imaging and computer vision."
+    }
+  }
+}

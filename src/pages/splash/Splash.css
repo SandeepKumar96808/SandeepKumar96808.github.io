@@ -60,3 +60,10 @@
     transform: none;
   }
 }
+
+/* Splash shown on top of the home page, which is already rendered underneath */
+.logo_wrapper-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+}

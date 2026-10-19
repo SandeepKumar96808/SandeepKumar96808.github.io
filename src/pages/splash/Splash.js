@@ -5,7 +5,7 @@ import LoaderLogo from "../../components/Loader/LoaderLogo.js";
 
 function AnimatedSplash(props) {
   return (
-    <div className="logo_wrapper">
+    <div className={`logo_wrapper${props.overlay ? " logo_wrapper-overlay" : ""}`}>
       <div className="screen" style={{ backgroundColor: props.theme.splashBg }}>
         <LoaderLogo id="logo" theme={props.theme} />
       </div>
@@ -30,10 +30,13 @@ class Splash extends Component {
   }
 
   render() {
-    return this.state.redirect ? (
-      <Redirect to="/home" />
-    ) : (
-      <AnimatedSplash theme={this.props.theme} />
+    // As an overlay (on the home page) the splash simply disappears when done;
+    // the standalone /splash route redirects to /home as before.
+    if (this.state.redirect) {
+      return this.props.overlay ? null : <Redirect to="/home" />;
+    }
+    return (
+      <AnimatedSplash theme={this.props.theme} overlay={this.props.overlay} />
     );
   }
 }

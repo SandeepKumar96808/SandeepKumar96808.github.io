@@ -12,7 +12,25 @@ import Error404 from "../pages/errors/error404/Error";
 import ResumePage from "../pages/resume/Resume.js";
 import Publications from "../pages/publications/Publications";
 
+// Play the splash once per browser session, and never for search engine
+// crawlers, so the home page content is always what gets indexed.
+function shouldShowSplash() {
+  if (!settings.isSplash) return false;
+  if (/bot|crawl|spider|slurp|lighthouse|headless/i.test(navigator.userAgent)) {
+    return false;
+  }
+  try {
+    if (sessionStorage.getItem("splashShown")) return false;
+    sessionStorage.setItem("splashShown", "1");
+  } catch (e) {
+    // Storage unavailable: show the splash.
+  }
+  return true;
+}
+
 export default class Main extends Component {
+  showSplash = shouldShowSplash();
+
   componentDidMount() {
     document.documentElement.style.setProperty(
       "--scrollbar-color",
@@ -38,13 +56,14 @@ export default class Main extends Component {
           <Route
             path="/"
             exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
+            render={(props) => (
+              <>
                 <Home {...props} theme={this.props.theme} />
-              )
-            }
+                {this.showSplash && (
+                  <Splash {...props} theme={this.props.theme} overlay />
+                )}
+              </>
+            )}
           />
           <Route
             path="/home"

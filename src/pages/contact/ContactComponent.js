@@ -27,7 +27,7 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt="Sandeep Kumar profile"
+                  alt="Sandeep Kumar (Sandeep Choudhary), PhD researcher at CMInDS, IIT Bombay"
                 />
               </div>
               <div className="contact-heading-text-div">
